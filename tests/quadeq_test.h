@@ -37,7 +37,7 @@ TEST(quadeqTest, not_quadequation) {
     ASSERT_EQ(quadeq_resolve(0, 1, 5, &x1, &x2), -1);
 }
 
-TEST(quadeqTest, not_equation) {
+ TEST(quadeqTest, not_equation) {
     double x1, x2;
     ASSERT_EQ(quadeq_resolve(0, 0, 5, &x1, &x2), -2);
 }
