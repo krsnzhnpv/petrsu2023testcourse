@@ -16,11 +16,19 @@ int main()
 
         case 1:
             printf("1 root: x = %f\n", x1);
-	    break;
+            break;
 
         case 0:
-        printf("No roots\n");
-	    break;
+            printf("No roots\n");
+            break;
+
+        case -1:
+            printf("Not quadratic equation\n");
+            break;
+
+        case -2:
+            printf("Not equation\n");
+            break;
     }
 
     return myfunc(2);
